@@ -1,0 +1,10 @@
+GET http:127.0.0.1:3000/getAll HTTP/1.1
+
+POST http://127.0.0.1:3000/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "Marcel3",
+    "password": "Marcel123"
+}
+
